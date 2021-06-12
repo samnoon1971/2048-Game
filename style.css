@@ -19,3 +19,41 @@ h1 {
     justify-content: space-between;
     margin-bottom: 20px;
 }
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: available;
+    background-color: burlywood;
+    border: 12px solid burlywood;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.grid div {
+    width: 120px;
+    height: 120px;
+    margin: 12px;
+    border-radius: 4px;
+    background-color: darkolivegreen;
+    color: antiquewhite;
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    line-height: 1.5;
+}
+.score-container {
+    text-align: center;
+    width: 80px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: darkorange;
+    color: darkgoldenrod;
+}
+#score {
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.score-title {
+    font-size: 20px;
+    font-family: sans-serif;
+}
